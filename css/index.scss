@@ -169,7 +169,21 @@ height: 1300px;
   height: 60px;
   background-color: #f5f5f5;
   .footer-block {
-    margin: 20px 0;
+    margin: 20px 30px;
   }
 
+  .footer-block a {
+    color: #333;
+  }
+
+  .footer-block a:hover {
+    color: #333;
+    opacity: 0.9;
+  }
+
+}
+
+#footer #footerText{
+  display: inline-block;
+  margin-right: 30px;
 }
