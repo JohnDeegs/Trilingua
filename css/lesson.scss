@@ -71,7 +71,13 @@ h2{
   height: auto;
 }
 
-@media  (min-width: 500px) and (max-width: 1300px) {
+#myTextArea {
+  width: 90%;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+@media  (min-width: 500px) and (max-width: 2000px) {
   #bodyText {
     width: 80%;
     margin: 0 auto;
@@ -90,7 +96,7 @@ h2{
   }
 }
 
-@media  (min-width: 700px) and (max-width: 1300px) {
+@media  (min-width: 700px) and (max-width: 2000px) {
   #video {
     width: 60%;
   }

@@ -63,6 +63,27 @@ h2{
   height: auto;
 }
 
+#myTextArea {
+  width: 90%;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+#subBtn {
+  background-color: #336699;
+    color: rgba(255,255,255,0.9);
+    font-size: 16px;
+    line-height: 17px;
+        padding: 12px 30px 12px;
+    display: block;
+    margin: 0 auto;
+}
+
+#subBtn:hover{
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
 @media  (min-width: 500px) and (max-width: 1300px) {
   #bodyText {
     width: 80%;
@@ -81,11 +102,6 @@ h2{
     display: block;
   }
 }
-
-@media  (min-width: 500px) and (max-width: 1300px) {
-
-}
-
 
 
 //////////////MISC/////////////////////////////
